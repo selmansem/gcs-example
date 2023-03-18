@@ -1,8 +1,8 @@
 # Web form to upload files to GCS
 
-<img src="https://img.shields.io/badge/Last%20Update-18%2F03%2F23-orange">
-<img src="https://img.shields.io/badge/Version-1.0.0-blue">
-<img src="https://img.shields.io/badge/Status-OK-green">
+[<img src="https://img.shields.io/badge/Last%20Update-18%2F03%2F23-orange">](#web-form-to-upload-files-to-gcs)
+[<img src="https://img.shields.io/badge/Version-1.0.0-blue">](#web-form-to-upload-files-to-gcs)
+[<img src="https://img.shields.io/badge/Status-OK-green">](#web-form-to-upload-files-to-gcs)
 
 Un ejemplo de formulario web simple para cargar arhivos en Google Cloud Storage.
 
