@@ -5,5 +5,5 @@
     "bucketName": "<nombre del bucket>",
     "bucketFolder": "tests/",
     "contentType": "image/*",
-    "ceredentialsFile": "credentials/keys.json"
+    "credentialsFile": "credentials/keys.json"
 }

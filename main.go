@@ -13,12 +13,12 @@ import (
 )
 
 type Config struct {
-	WebPort          string `json:"webPort,omitempty"`
-	WebHost          string `json:"webHost,omitempty"`
-	BucketName       string `json:"bucketName,omitempty"`
-	BucketFolder     string `json:"bucketFolder,omitempty"`
-	ContentType      string `json:"contentType,omitempty"`
-	CeredentialsFile string `json:"ceredentialsFile,omitempty"`
+	WebPort         string `json:"webPort,omitempty"`
+	WebHost         string `json:"webHost,omitempty"`
+	BucketName      string `json:"bucketName,omitempty"`
+	BucketFolder    string `json:"bucketFolder,omitempty"`
+	ContentType     string `json:"contentType,omitempty"`
+	CredentialsFile string `json:"credentialsFile,omitempty"`
 }
 
 func GetConfig() Config {
@@ -60,7 +60,7 @@ func main() {
 		}
 
 		ctx := context.Background()
-		credsFile := GetConfig().CeredentialsFile
+		credsFile := GetConfig().CredentialsFile
 
 		// Crea una nueva instancia de storage.Client
 		client, err := storage.NewClient(ctx, option.WithCredentialsFile(credsFile))
