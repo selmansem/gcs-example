@@ -25,3 +25,7 @@ docker-rmi:
 # PELIGROSO: Purgar cache de Docker. Úsalo solo si sabes lo que haces
 docker-purge:
 	docker system prune -af
+
+# Build and run
+docker-br:
+	docker-build docker-create docker-run
