@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    cursor: pointer;
+}
+.status-icon {
+    font-size: xxx-large;
+}

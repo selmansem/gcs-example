@@ -1,0 +1,9 @@
+{
+    "webHost": "localhost",
+    "webPort": "8080",
+
+    "bucketName": "<nombre del bucket>",
+    "bucketFolder": "tests/",
+    "contentType": "image/*",
+    "ceredentialsFile": "credentials/keys.json"
+}
