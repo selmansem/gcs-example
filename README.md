@@ -36,7 +36,7 @@ Un ejemplo de formulario web simple para cargar arhivos en Google Cloud Storage.
    - [`Descripción de los valores de configuración`](#valores-de-configuración).
 
 ## Ejecución
-1. Ejecutar el comando `make build` para construir la imagen de Docker. Si no tienes make instalado no te preocupes, sigue los pasos del siguiente punto.
+1. Ejecutar el comando `make docker-br` para construir la imagen y crear el contenedor de Docker. Si no tienes make instalado no te preocupes, sigue los pasos del siguiente punto.
 2. Crea la imagen de Docker.
 ```bash
 docker build -t gcs-upload .
