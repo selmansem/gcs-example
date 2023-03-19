@@ -86,7 +86,7 @@ func main() {
 
 		// Sube el archivo a Cloud Storage
 		wc := client.Bucket(bucketName).Object(objectName).NewWriter(ctx)
-		wc.ContentType = contentType
+		wc.ContentType = contentType // No es obligatorio, pero es recomendable
 		if _, err := wc.Write(fileContent); err != nil {
 			c.HTML(http.StatusOK, "index.html", gin.H{
 				"error": fmt.Sprintf("No se pudo escribir el archivo en Cloud Storage: %v", err),
